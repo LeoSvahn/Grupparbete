@@ -72,7 +72,7 @@ public class StenSaxPåse implements ActionListener {
                 || (userChoice.equals("Scissors") && computerChoice.equals("Paper"))) {
             return "You win!";
         } else {
-            return "Datorn vann!";
+            return "Computer Wins!";
         }}}
 
     
