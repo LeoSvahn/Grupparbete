@@ -1,13 +1,8 @@
 package src;
 
-public class Main { public static void main(String[] args) {
+public class StenSaxPåseApp {
 
-
-
-
-
-    
-    
-}
-    
+    public static void main(String[] args) {
+        StenSaxPåse game = new StenSaxPåse();
+    }
 }
