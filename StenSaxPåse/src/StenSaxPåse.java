@@ -36,7 +36,7 @@ public class StenSaxPåse implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);
-
+//testar
         rockButton.addActionListener(this);
         paperButton.addActionListener(this);
         scissorsButton.addActionListener(this);
@@ -72,7 +72,7 @@ public class StenSaxPåse implements ActionListener {
                 || (userChoice.equals("Scissors") && computerChoice.equals("Paper"))) {
             return "You win!";
         } else {
-            return "Computer wins!";
+            return "Datorn vann!";
         }}}
 
     
